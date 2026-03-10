@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [89.0.0](https://github.com/na2kera/smarthr-ui/compare/smarthr-ui-v88.0.0...smarthr-ui-v89.0.0) (2026-03-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* フォーカスインジケータをデフォルト内側に表示する ([#6010](https://github.com/na2kera/smarthr-ui/issues/6010))
+* **FormDialog,ActionDialog:** onSubmit/onClickActionのコールバックインターフェースを変更 ([#6024](https://github.com/na2kera/smarthr-ui/issues/6024))
+* **StepFormDialog:** onSubmitの内部の自由度を向上 ([#5914](https://github.com/na2kera/smarthr-ui/issues/5914))
+
+### Features
+
+* **FormDialog,ActionDialog:** onSubmit/onClickActionのコールバックインターフェースを変更 ([#6024](https://github.com/na2kera/smarthr-ui/issues/6024)) ([fd7a303](https://github.com/na2kera/smarthr-ui/commit/fd7a303d8cd5dd39717c8c662eb9d25b65e2d99c))
+* **StepFormDialog:** onSubmitの内部の自由度を向上 ([#5914](https://github.com/na2kera/smarthr-ui/issues/5914)) ([e11f684](https://github.com/na2kera/smarthr-ui/commit/e11f68456209c145de26564d2ed2604e1ccd1f81))
+* **Text:** maxLines属性を追加する ([#6058](https://github.com/na2kera/smarthr-ui/issues/6058)) ([1209cbe](https://github.com/na2kera/smarthr-ui/commit/1209cbe73c9d7f046de63a0154c0ca75ceadc352))
+* **Th:** デフォルトでwhite-space: nowrapを設定する ([#6119](https://github.com/na2kera/smarthr-ui/issues/6119)) ([49d7664](https://github.com/na2kera/smarthr-ui/commit/49d766483d52481ad1e30bfe4f0644c83b1f998b))
+
+
+### Bug Fixes
+
+* **DisclosureTrigger:** なんの要素も出力していないかのように扱えるように調整する ([#6165](https://github.com/na2kera/smarthr-ui/issues/6165)) ([ecfa172](https://github.com/na2kera/smarthr-ui/commit/ecfa17226cf48d24465ea910031d8ad104160ef5))
+* READMEにIntlProviderを追加 ([#6145](https://github.com/na2kera/smarthr-ui/issues/6145)) ([323778b](https://github.com/na2kera/smarthr-ui/commit/323778b2fefae364d4b7f0446bd404baa194c8d1))
+* フォーカスインジケータをデフォルト内側に表示する ([#6010](https://github.com/na2kera/smarthr-ui/issues/6010)) ([7abf656](https://github.com/na2kera/smarthr-ui/commit/7abf65677e5224e993017991a9e013d8efc44cbe))
+
 ## [88.0.0](https://github.com/kufu/smarthr-ui/compare/smarthr-ui-v87.2.0...smarthr-ui-v88.0.0) (2026-03-05)
 
 
